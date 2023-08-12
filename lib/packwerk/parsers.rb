@@ -4,6 +4,7 @@
 module Packwerk
   module Parsers
     autoload :Erb, "packwerk/parsers/erb"
+    autoload :Slim, "packwerk/parsers/slim"
     autoload :Factory, "packwerk/parsers/factory"
     autoload :ParserInterface, "packwerk/parsers/parser_interface"
     autoload :Ruby, "packwerk/parsers/ruby"

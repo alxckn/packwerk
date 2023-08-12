@@ -54,5 +54,8 @@ Gem::Specification.new do |spec|
   # For ERB parsing
   spec.add_dependency("better_html")
 
+  # For SLIM parsing
+  spec.add_dependency("slim")
+
   spec.add_development_dependency("railties")
 end
